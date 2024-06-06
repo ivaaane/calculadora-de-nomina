@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="icon" href="icono.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="encabezado">
+        <h1>Calculardora de nómina</h1>
+        </div>
+        <input type="number" id="extras-normales" placeholder="Horas extras normales"><br>
+        <input type="number" id="extras-festivas" placeholder="Horas extras festivas"><br>
+        <input type="number" id="nocturnidad" placeholder="Nocturnidad"><br>
+        <input type="number" id="plus-fundicion" placeholder="Plus de fundición"><br>
+        <input type="number" id="guardias" placeholder="Guardias"><br>
+        <input type="number" id="irpf" placeholder="IRPF (%)"><br>
+        <button onclick="performOperation('calcular')">Calcular</button>
+        <p id="resultado"></p>
+
+        <script src="script.js">
+        </script>
+    </body>
+</html>
